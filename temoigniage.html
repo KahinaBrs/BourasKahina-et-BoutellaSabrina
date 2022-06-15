@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+   
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet">
+        <link rel="stylesheet"href="temoigniage.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+            <title>AdoptMe</title>
+    </head>
+    <body>
+        <header> 
+            <a href="site.html" class="logo"><span>A</span>doptMe</a>
+        </header>
+        <br></br>
+        <br></br>
+<section >
+<h1> Vos témoignages :</h1>  
+<div class="container">
+  
+  <div class="veiw-box">
+     
+      <div id="testimonials">
+         
+          <div class="user">
+              <img src="v (1).jpg" alt="">
+              <p>J'ai adopter un chat qui a était abandoner à l'age de 2 mois, maintenant il a 2 ans et il s'appel silver, et c'est la meilleur chose que j'ai faite dans ma vie </p>
+              <h3>Linda belouti</h3>
+          </div>
+          
+          <div class="user space">
+              <img src="v (2).jpg" alt="">
+               <p>Avant d'adopter résmus mon chien de 3 ans , j'avais un grand vide dans ma vie maintenant je n'imagine pas ma vie sans lui, c'est mon pus fidéle ami .</p>
+              <h3> Rachid ammer</h3>
+          </div>
+          
+          <div class="user">
+              <img src="v (3).jpg" alt="">
+               <p> c'est mes petits enfant qui m'ont conseiller d'adopter un animal, et grace a ce site j'ai pu faire la rencontre d'un adorable petit chien qui me tien compagnie et me redonne la joie de vivre depuis plus d'un ans  </p>
+              <h3>Fatiha waili</h3>
+          </div>
+          
+          
+      </div>
+       
+      <div class="controls">
+          <span id="control1"></span>
+          <span id="control2" class="active"></span>
+          <span id="control3"></span>
+      </div>
+      
+  </div>
+</div>
+
+
+
+<script>
+
+  var testimonials = document.getElementById('testimonials');
+  var control1 = document.getElementById('control1');
+  var control2 = document.getElementById('control2');
+  var control3 = document.getElementById('control3');
+  
+  
+  control1.onclick=function(){
+      testimonials.style.transform = "translateX(870px)";
+      control1.classList.add("active");
+      control2.classList.remove("active");
+      control3.classList.remove("active");
+  }
+  
+  control2.onclick=function(){
+      testimonials.style.transform = "translateX(0px)";
+      control1.classList.remove("active");
+      control2.classList.add("active");
+      control3.classList.remove("active");
+  }
+  
+  control3.onclick=function(){
+      testimonials.style.transform = "translateX(-870px)";
+      control1.classList.remove("active");
+      control2.classList.remove("active");
+      control3.classList.add("active");
+  }
+  
+  
+  
+  
+
+</script>
+</section>
+</body>

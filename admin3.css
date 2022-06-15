@@ -1,0 +1,98 @@
+
+    *{
+        padding:0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Quicksand', sans-serif;
+    }
+        
+        header{
+       
+       position:fixed;
+       top: 0%;
+       left: 0%;
+       padding: 16px ;
+       z-index: 1;
+       display: flex;
+       justify-content: space-between;
+       align-items:center;
+       transition: 0.5s ;
+    }
+    .logo{
+        color: #d62a5b   ;
+        font-weight: bold;
+        font-size: 2em;
+        text-decoration: none;
+    }
+    .logo span{
+        color:    #f07d7d  ;
+    }
+    
+     
+    form input{
+      cursor:pointer;
+      position:absolute;
+      top:20px;
+      right:15px;
+      font-size:20px;
+      font-weight:500;
+      color: #1e4d70; 
+      text-transform: capitalize; 
+      height:50px;
+      width:170px;
+      background: rgb(255, 173, 173) ;
+      border:none;
+          }
+          form input:hover{
+              cursor:pointer;
+              background: rgb(255, 153, 153) ;
+          }  
+    
+    .btn{
+        margin:10px;
+      cursor:pointer;
+      font-size:18px;
+      font-weight:500;
+      color: #1e4d70; 
+      text-transform: capitalize; 
+      height:50px;
+      width:200px;
+      background: rgb(255, 173, 173) ;
+      border:none;
+          }
+          .btn:hover{
+              cursor:pointer;
+              background: rgb(255, 153, 153) ;
+          }  
+    
+     .container{
+       width:100%;
+        padding:3rem 2rem;
+        text-align: center;
+        align-items:center;
+     }  
+    .container .title{
+        font-size: 3.5rem;
+        color:#444;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+     }
+    .container img{
+        height:170px;
+        margin:20px;
+    }
+     
+    table
+    { margin:auto;
+        border-collapse: collapse;
+    }
+    td
+    { width:100px;
+        height:50px;
+        border: 2px solid  rgb(250, 149, 149) ;
+    }
+    td a{
+        color: #1f7bc2;
+        text-decoration:none;
+    }

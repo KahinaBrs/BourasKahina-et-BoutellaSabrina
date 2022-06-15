@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+  
+  .profil{
+            position:relative;
+            height:100px;
+            width:100%;
+            background:pink;
+            display:flex;
+        }
+  
+        .profil .img1{
+            float:left;
+            margin:10px;
+            height:70px;
+        }
+        .profil .img2{
+            float:left;
+            margin-top:-20px;
+            margin-left:160px;
+            height:70px;
+        }
+        
+    .profil a ,a {  
+    color: #1e4d70  ;
+    font-size:20px;
+    text-decoration :none;
+    margin-left: 20px ;
+    margin-top:30px;
+    font-weight: 700;}
+  
+  
+    .profil form input{
+    cursor:pointer;
+    position:absolute;
+    top:20px;
+    right:15px;
+    font-size:20px;
+    font-weight:500;
+    color: #1e4d70; 
+    text-transform: capitalize; 
+    height:50px;
+    width:170px;
+    background: rgb(255, 173, 173) ;
+    border:none;
+        }
+        .profil form input:hover ,.demander form .send:hover{
+            cursor:pointer;
+            background: rgb(255, 153, 153) ;
+        }    
+  
+  
+  
+  .titre-adopt{
+  color:rgb(247, 99, 99);
+  font-size :1.6em;
+  font-weight: 500;
+  margin-left:20px;
+  margin-top:40px;
+  }
+  
+  ol {
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 300px;
+    list-style: none;
+    position : absolute;
+    left : 20px;
+  }
+  
+  ol li {
+    font-size: 1.2rem;
+    padding: 20px 30px;
+    margin: 10px 0;
+    background: rgb(255, 207, 207);
+    z-index: 5;
+    position: relative;
+    cursor: pointer;
+    transition: all .4s;
+  }
+  ol li::before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    z-index: -1;
+    transition: all .4s;
+  }
+  
+  ol li:hover::before {
+    width: 100%;
+  }
+  ol li:nth-child(1)::before {
+    background: #7eafff;
+  }
+  
+  ol li:nth-child(2)::before {
+    background: #ffa59d;
+  }
+  
+  ol li:nth-child(3)::before {
+    background: #ffd666;
+  }
+  
+  ol li:nth-child(4)::before {
+    background: #62ffb3;
+  }
+  ol li:nth-child(5)::before {
+    background: #ff6ecf;
+  }
+  
+  ol li:nth-child(6)::before {
+    background: #ff3b55;
+  }
+  
+  
+  
+  ol li:hover {
+    transform: translateX(20px);
+  }
+  
+   
+  .image{
+    position:relative;
+    float:right;
+  }
+   
+  
+  .titre-adopt2{
+    color:rgb(247, 99, 99);
+    font-size :1.6em;
+    font-weight: 500;
+    margin-top:540px;
+    margin-left:20px;
+  } 
+  .demander{
+      position:relative;
+      margin-top:70px;
+      margin-bottom:50px;
+      margin-left:10px; 
+      display:flex;
+  
+  }
+  .demander img{
+      margin-top:20px;
+      height:330px;
+      width:700px;
+  }
+  .demander form{
+      margin:auto;
+      text-align:center;
+      height:400px;
+      width:400px;
+      background:pink;
+      position:relative;
+  
+  }
+  .demander form input{
+      font-size: 18px;
+      color:#fff;
+      width:250px;
+      height:50px;
+      border:0;
+      border-bottom:1px solid #f9f9f9;
+      outline: none;
+      margin:20px;
+      background:transparent;
+      color:white;
+  }
+  .demander form select{
+      color: #1e4d70; 
+      background:pink;
+      width:250px;
+      height:50px;
+      border:0;
+      border-bottom:1px solid #f9f9f9;
+      outline: none;
+      font-size: 18px;
+      margin-top:20px;
+      margin-bottom:10px;
+      text-align:center;
+      
+  }
+  .demander form .send{
+    cursor:pointer;
+    font-size:20px;
+    font-weight:500;
+    color: #1e4d70; 
+    text-transform: capitalize; 
+    height:50px;
+    width:170px;
+    margin-top:40px;
+    background: rgb(255, 173, 173) ;
+    border:none;
+  }
+  .p1{
+  margin-left:350px;
+  font-family:"Montserrat",sans-serif;
+  color:rgb(252, 56, 56);
+  font-size:20px;
+  font-weight:500;
+  
+  }
+  .p2{
+      margin-left:530px;
+      font-family:"Montserrat",sans-serif;
+      color:rgb(34, 253, 125);
+      font-size:20px;
+      font-weight:500;
+  
+  }

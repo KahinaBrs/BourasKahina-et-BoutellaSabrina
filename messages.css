@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+  
+  .profil{
+            position:relative;
+            height:100px;
+            width:100%;
+            background:pink;
+            display:flex;
+        }
+  
+        .profil .img1{
+            float:left;
+            margin:10px;
+            height:70px;
+        }
+        .profil .img2{
+            float:left;
+            margin-top:-20px;
+            margin-left:160px;
+            height:70px;
+        }
+        
+    .profil a ,a {  
+    color: #1e4d70  ;
+    font-size:20px;
+    text-decoration :none;
+    margin-left: 20px ;
+    margin-top:30px;
+    font-weight: 700;}
+  
+  
+    .profil form input{
+    cursor:pointer;
+    position:absolute;
+    top:20px;
+    right:15px;
+    font-size:20px;
+    font-weight:500;
+    color: #1e4d70; 
+    text-transform: capitalize; 
+    height:50px;
+    width:170px;
+    background: rgb(255, 173, 173) ;
+    border:none;
+        }
+        .profil form input:hover ,.demander form .send:hover{
+            cursor:pointer;
+            background: rgb(255, 153, 153) ;
+        }    
+  
+  
+  
+  .titre-adopt{
+  color:rgb(247, 99, 99);
+  font-size :1.6em;
+  font-weight: 500;
+  margin-left:20px;
+  margin-top:40px;
+  }
+  
+   
+  
+   
+  
+  .titre-adopt2{
+      color:rgb(247, 99, 99);
+    font-size :1.4em;
+    font-weight: 500;
+    margin-top:20px;
+    margin-left:20px;
+  } 
+  
+  
+  
+  
+  .container{
+         width:100%;
+          padding:1rem 2rem;
+          text-align: center;
+          align-items:center;
+       }  
+  .container img{
+          height:330px;
+          margin:20px;
+      }
+       
+      
+  .card{
+          margin:auto;
+          width:600px;
+          height:620px;
+         border:3px rgb(255, 173, 173) solid;
+      
+      }
+          
+      .btn{
+          margin-top:40px;
+          margin-left:20px;
+          margin-right:20px;
+        cursor:pointer;
+        font-size:18px;
+        font-weight:500;
+        color: #1e4d70; 
+        text-transform: capitalize; 
+        height:50px;
+        width:200px;
+        background: rgb(255, 173, 173) ;
+        border:none;
+            }
+            .btn:hover{
+                cursor:pointer;
+                background: rgb(255, 153, 153) ;
+            }  
